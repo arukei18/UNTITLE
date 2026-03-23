@@ -30,7 +30,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 40px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +39,22 @@ a {
     border-bottom: 1px solid rgba(255,255,255,0.3);
     z-index: 1000;
 }
+
+/* logo */
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  padding-top: 15px;
+
+}
+
 
 .site-title a {
     font-size: 24px;
@@ -242,4 +258,12 @@ nav img:hover {
     nav ul {
         gap: 15px;
     }
+}
+
+/* margin */
+
+.margin-text {
+    font-size: 18px;
+    opacity: 0.9;
+    padding-top: 30px;
 }
