@@ -15,7 +15,8 @@
             <img src="images/logo.png" alt="UNTITLE logo" class="logo">
             <h1 class="site-title"><a href="#">UNTITLE</a></h1>
         </div>
-        <nav>
+        <div class="hamburger">☰</div>
+        <nav class="site-nav">
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -107,5 +108,14 @@
         <p>© 2026 UNTITLE Inc.</p>
     </footer>
 
+
+    <script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.site-nav');
+
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+    </script>
 </body>
 </html>

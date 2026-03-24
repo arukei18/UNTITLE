@@ -258,6 +258,26 @@ nav img:hover {
     nav ul {
         gap: 15px;
     }
+
+    .hamburger{
+        display: block; /*スマホで表示*/
+    }
+
+    .site-nav{
+        display: none;
+        flex-direction: column;
+        gap: 16px;
+        background: rgba(255,255,255,0.9);
+        padding: 20px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border-radius: 8px;
+    }
+
+    .site-nav.active ul {
+         display: flex;
+    }
 }
 
 /* margin */
@@ -266,4 +286,13 @@ nav img:hover {
     font-size: 18px;
     opacity: 0.9;
     padding-top: 30px;
+}
+
+
+/* PCハンバーガー非表示 */
+
+.hamburger{
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
 }
