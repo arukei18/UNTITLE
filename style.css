@@ -243,6 +243,13 @@ nav img:hover {
     margin-top: 80px;
 }
 
+/* PCハンバーガー非表示 */
+
+.hamburger{
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+}
 
    /* Responsive */
 
@@ -288,11 +295,3 @@ nav img:hover {
     padding-top: 30px;
 }
 
-
-/* PCハンバーガー非表示 */
-
-.hamburger{
-    display: none;
-    font-size: 32px;
-    cursor: pointer;
-}
