@@ -263,7 +263,7 @@ nav img:hover {
         display: block; /*スマホで表示*/
     }
 
-    .site-nav{
+    .site-nav ul {
         display: none;
         flex-direction: column;
         gap: 16px;
