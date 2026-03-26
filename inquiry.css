@@ -170,7 +170,7 @@ button{
 
   /* Responsive */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     #header {
         padding: 1px 5px;
@@ -215,7 +215,7 @@ button{
         background: #ffffff;
         padding: 20px;
         border-radius: 6px;
-        width: 290px;
+        width: 280px;
     }
 
     .item {
