@@ -213,8 +213,7 @@ button{
 
     form {
         background: #ffffff;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding: 20px;
         border-radius: 6px;
         width: 290px;
     }
